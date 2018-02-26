@@ -113,7 +113,7 @@ void main(int argc, const char* argv[]){
 	//纯虚函数和抽象类
 	VirtualStudy mVirtualStudy;
 	mVirtualStudy.run();
-
+	 
 	//char a = 'A';
 	//printf("a==  %d\n",a);
 	//a = 'a';
