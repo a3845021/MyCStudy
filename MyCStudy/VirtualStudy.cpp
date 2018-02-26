@@ -113,7 +113,7 @@ void VirtualStudy::run(){
 	if1->func1(1,1);
 	if1->func3(2);
 	delete if1;
-
+ 
 	Interface2 *if2 = new Child(20);
 	if2->func2(2);
 	delete if2;
