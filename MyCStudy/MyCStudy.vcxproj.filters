@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\C语言基础">
+      <UniqueIdentifier>{4fef6a9c-db2f-47b1-abf7-a5696a8f5c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\冒泡排序">
+      <UniqueIdentifier>{f6eea33c-fedc-4598-a628-d34fcc45de6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\字符串">
+      <UniqueIdentifier>{d79cc423-f82e-4d3a-862c-a00cb2148b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\指针">
+      <UniqueIdentifier>{be9e2620-236f-47c3-ac08-11e15ff22987}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\结构体">
+      <UniqueIdentifier>{a54844f7-d2c0-41e4-b0c4-f424dd92e34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\枚举">
+      <UniqueIdentifier>{142259e4-a237-4034-a5a7-a448fe8c83cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\内存管理">
+      <UniqueIdentifier>{a900de23-3cce-4ad4-94e6-46e5dd3b9b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\链表">
+      <UniqueIdentifier>{0b944408-5286-4310-848a-20869e0fd70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C语言基础\宏定义">
+      <UniqueIdentifier>{997a349f-baa5-4fab-ae90-e99c0c5c314f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础">
+      <UniqueIdentifier>{9cbd5b51-dcbc-49c7-90fa-a559740b8113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\输入输出">
+      <UniqueIdentifier>{2b468e16-7fed-4171-bdf6-f347ca7daea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\变量">
+      <UniqueIdentifier>{59a15c26-f2af-4e1a-af88-015216f7bbde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\命名空间">
+      <UniqueIdentifier>{30d15a19-09fb-4163-944d-0702ab15ce69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\引用">
+      <UniqueIdentifier>{57b7bc04-4590-45d5-aa62-0567bee94323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\内联函数函数默认参数">
+      <UniqueIdentifier>{458616ab-85c7-4b20-9c9f-6dd188c132fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\函数的重载">
+      <UniqueIdentifier>{a80527e3-7247-45ca-b98f-28b35f33c1ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\New和Delete">
+      <UniqueIdentifier>{5b7dd27f-8f57-416c-b636-50b3fe2254f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\友元">
+      <UniqueIdentifier>{ee6f2f4c-9b04-4922-8061-fbb1f021121f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\操作符重载">
+      <UniqueIdentifier>{2bd7a697-8754-4e29-b75b-1635aaaf772f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\智能指针">
+      <UniqueIdentifier>{1abe6321-367c-4abe-8f63-82012092df63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\String类">
+      <UniqueIdentifier>{06b9993f-a738-4dae-894e-99dc5bcbdd1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\自动类型和类型推断">
+      <UniqueIdentifier>{a4e17c00-fc0c-4741-b34e-fa2304fae11d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++ STL">
+      <UniqueIdentifier>{30a2d45d-a4da-4ec2-8f2c-e9530dd7e2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++ STL\模板">
+      <UniqueIdentifier>{e14cd0de-1d8d-4f09-973f-f6bfbac13853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\类继承">
+      <UniqueIdentifier>{77b6f9f5-2421-4564-8427-deaadf90ec18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\多态">
+      <UniqueIdentifier>{9fa30f23-1d3b-449a-9212-aa7ecc36f590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\多线程">
+      <UniqueIdentifier>{48e68258-d3a6-40e8-aa80-c72886041d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++基础\纯虚函数和抽象类">
+      <UniqueIdentifier>{d07e0dfe-40a2-48a0-b31c-61a8ba351f6f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MyMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSortStudy.cpp">
+      <Filter>源文件\C语言基础\冒泡排序</Filter>
+    </ClCompile>
+    <ClCompile Include="StringStudy.cpp">
+      <Filter>源文件\C语言基础\字符串</Filter>
+    </ClCompile>
+    <ClCompile Include="PointerStudy.cpp">
+      <Filter>源文件\C语言基础\指针</Filter>
+    </ClCompile>
+    <ClCompile Include="StructStudy.cpp">
+      <Filter>源文件\C语言基础\结构体</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumStudy.cpp">
+      <Filter>源文件\C语言基础\枚举</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryStudy.cpp">
+      <Filter>源文件\C语言基础\内存管理</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkeStudy.cpp">
+      <Filter>源文件\C语言基础\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkList.cpp">
+      <Filter>源文件\C语言基础\链表</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroStudy.cpp">
+      <Filter>源文件\C语言基础\宏定义</Filter>
+    </ClCompile>
+    <ClCompile Include="CoutCinStudy.cpp">
+      <Filter>源文件\C++基础\输入输出</Filter>
+    </ClCompile>
+    <ClCompile Include="VariableStudy.cpp">
+      <Filter>源文件\C++基础\变量</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeStudy.cpp">
+      <Filter>源文件\C++基础\自动类型和类型推断</Filter>
+    </ClCompile>
+    <ClCompile Include="NameSpaceStudy.cpp">
+      <Filter>源文件\C++基础\命名空间</Filter>
+    </ClCompile>
+    <ClCompile Include="QuoteStudy.cpp">
+      <Filter>源文件\C++基础\引用</Filter>
+    </ClCompile>
+    <ClCompile Include="InLineStudy.cpp">
+      <Filter>源文件\C++基础\内联函数函数默认参数</Filter>
+    </ClCompile>
+    <ClCompile Include="ReLoadStudy.cpp">
+      <Filter>源文件\C++基础\函数的重载</Filter>
+    </ClCompile>
+    <ClCompile Include="NewObject.cpp">
+      <Filter>源文件\C++基础\New和Delete</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendStudy.cpp">
+      <Filter>源文件\C++基础\友元</Filter>
+    </ClCompile>
+    <ClCompile Include="ReOperatorStudy.cpp">
+      <Filter>源文件\C++基础\操作符重载</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoPtrStudy.cpp">
+      <Filter>源文件\C++基础\智能指针</Filter>
+    </ClCompile>
+    <ClCompile Include="MyStringStudy.cpp">
+      <Filter>源文件\C++基础\String类</Filter>
+    </ClCompile>
+    <ClCompile Include="TemplateStudy.cpp">
+      <Filter>源文件\C++ STL\模板</Filter>
+    </ClCompile>
+    <ClCompile Include="InheritStudy.cpp">
+      <Filter>源文件\C++基础\类继承</Filter>
+    </ClCompile>
+    <ClCompile Include="PolymorphicStudy.cpp">
+      <Filter>源文件\C++基础\多态</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadStudy.cpp">
+      <Filter>源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualStudy.cpp">
+      <Filter>源文件\C++基础\纯虚函数和抽象类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BubbleSortStudy.h">
+      <Filter>源文件\C语言基础\冒泡排序</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StringStudy.h">
+      <Filter>源文件\C语言基础\字符串</Filter>
+    </ClInclude>
+    <ClInclude Include="PointerStudy.h">
+      <Filter>源文件\C语言基础\指针</Filter>
+    </ClInclude>
+    <ClInclude Include="StructStudy.h">
+      <Filter>源文件\C语言基础\结构体</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumStudy.h">
+      <Filter>源文件\C语言基础\枚举</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryStudy.h">
+      <Filter>源文件\C语言基础\内存管理</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkeStudy.h">
+      <Filter>源文件\C语言基础\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkList.h">
+      <Filter>源文件\C语言基础\链表</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroStudy.h">
+      <Filter>源文件\C语言基础\宏定义</Filter>
+    </ClInclude>
+    <ClInclude Include="CoutCinStudy.h">
+      <Filter>源文件\C++基础\输入输出</Filter>
+    </ClInclude>
+    <ClInclude Include="VariableStudy.h">
+      <Filter>源文件\C++基础\变量</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeStudy.h">
+      <Filter>源文件\C++基础\自动类型和类型推断</Filter>
+    </ClInclude>
+    <ClInclude Include="NameSpaceStudy.h">
+      <Filter>源文件\C++基础\命名空间</Filter>
+    </ClInclude>
+    <ClInclude Include="QuoteStudy.h">
+      <Filter>源文件\C++基础\引用</Filter>
+    </ClInclude>
+    <ClInclude Include="InLineStudy.h">
+      <Filter>源文件\C++基础\内联函数函数默认参数</Filter>
+    </ClInclude>
+    <ClInclude Include="ReLoadStudy.h">
+      <Filter>源文件\C++基础\函数的重载</Filter>
+    </ClInclude>
+    <ClInclude Include="NewObject.h">
+      <Filter>源文件\C++基础\New和Delete</Filter>
+    </ClInclude>
+    <ClInclude Include="FriendStudy.h">
+      <Filter>源文件\C++基础\友元</Filter>
+    </ClInclude>
+    <ClInclude Include="ReOperatorStudy.h">
+      <Filter>源文件\C++基础\操作符重载</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoPtrStudy.h">
+      <Filter>源文件\C++基础\智能指针</Filter>
+    </ClInclude>
+    <ClInclude Include="MyStringStudy.h">
+      <Filter>源文件\C++基础\String类</Filter>
+    </ClInclude>
+    <ClInclude Include="TemplateStudy.h">
+      <Filter>源文件\C++ STL\模板</Filter>
+    </ClInclude>
+    <ClInclude Include="InheritStudy.h">
+      <Filter>源文件\C++基础\类继承</Filter>
+    </ClInclude>
+    <ClInclude Include="PolymorphicStudy.h">
+      <Filter>源文件\C++基础\多态</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadStudy.h">
+      <Filter>源文件\多线程</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualStudy.h">
+      <Filter>源文件\C++基础\纯虚函数和抽象类</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

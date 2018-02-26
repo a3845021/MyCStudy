@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{94BD7BBF-8D5D-45B8-97E5-0BFBC7DB3EB8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyCStudy</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AutoPtrStudy.h" />
+    <ClInclude Include="BubbleSortStudy.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="CoutCinStudy.h" />
+    <ClInclude Include="EnumStudy.h" />
+    <ClInclude Include="FriendStudy.h" />
+    <ClInclude Include="InheritStudy.h" />
+    <ClInclude Include="InLineStudy.h" />
+    <ClInclude Include="LinkeStudy.h" />
+    <ClInclude Include="LinkList.h" />
+    <ClInclude Include="MacroStudy.h" />
+    <ClInclude Include="MemoryStudy.h" />
+    <ClInclude Include="MyStringStudy.h" />
+    <ClInclude Include="NameSpaceStudy.h" />
+    <ClInclude Include="NewObject.h" />
+    <ClInclude Include="PointerStudy.h" />
+    <ClInclude Include="PolymorphicStudy.h" />
+    <ClInclude Include="QuoteStudy.h" />
+    <ClInclude Include="ReLoadStudy.h" />
+    <ClInclude Include="ReOperatorStudy.h" />
+    <ClInclude Include="StringStudy.h" />
+    <ClInclude Include="StructStudy.h" />
+    <ClInclude Include="TemplateStudy.h" />
+    <ClInclude Include="ThreadStudy.h" />
+    <ClInclude Include="TypeStudy.h" />
+    <ClInclude Include="VariableStudy.h" />
+    <ClInclude Include="VirtualStudy.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AutoPtrStudy.cpp" />
+    <ClCompile Include="BubbleSortStudy.cpp" />
+    <ClCompile Include="CoutCinStudy.cpp" />
+    <ClCompile Include="EnumStudy.cpp" />
+    <ClCompile Include="FriendStudy.cpp" />
+    <ClCompile Include="InheritStudy.cpp" />
+    <ClCompile Include="InLineStudy.cpp" />
+    <ClCompile Include="LinkeStudy.cpp" />
+    <ClCompile Include="LinkList.cpp" />
+    <ClCompile Include="MacroStudy.cpp" />
+    <ClCompile Include="MemoryStudy.cpp" />
+    <ClCompile Include="MyMain.cpp" />
+    <ClCompile Include="MyStringStudy.cpp" />
+    <ClCompile Include="NameSpaceStudy.cpp" />
+    <ClCompile Include="NewObject.cpp" />
+    <ClCompile Include="PointerStudy.cpp" />
+    <ClCompile Include="PolymorphicStudy.cpp" />
+    <ClCompile Include="QuoteStudy.cpp" />
+    <ClCompile Include="ReLoadStudy.cpp" />
+    <ClCompile Include="ReOperatorStudy.cpp" />
+    <ClCompile Include="StringStudy.cpp" />
+    <ClCompile Include="StructStudy.cpp" />
+    <ClCompile Include="TemplateStudy.cpp" />
+    <ClCompile Include="ThreadStudy.cpp" />
+    <ClCompile Include="TypeStudy.cpp" />
+    <ClCompile Include="VariableStudy.cpp" />
+    <ClCompile Include="VirtualStudy.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
