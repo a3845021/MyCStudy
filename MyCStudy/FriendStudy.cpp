@@ -15,7 +15,7 @@ public:
 	int getY(){
 		return this->y;
 	}
-
+ 
 private:
 	int x;
 	int y;
