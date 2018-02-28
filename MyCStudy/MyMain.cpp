@@ -21,6 +21,7 @@
 #include "PolymorphicStudy.h"
 #include "ThreadStudy.h"
 #include "VirtualStudy.h"
+#include "TemplateStudy.h"
 using namespace std;
 
 void run(Root *root){
@@ -111,9 +112,13 @@ void main(int argc, const char* argv[]){
 	//mThreadStudy.run();
 
 	//纯虚函数和抽象类
-	VirtualStudy mVirtualStudy;
-	mVirtualStudy.run();
-	 
+	//VirtualStudy mVirtualStudy;
+	//mVirtualStudy.run();
+
+	//模板的学习
+	TemplateStudy mTemplateStudy;
+	mTemplateStudy.run();
+
 	//char a = 'A';
 	//printf("a==  %d\n",a);
 	//a = 'a';

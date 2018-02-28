@@ -78,9 +78,6 @@
     <Filter Include="源文件\C++ STL">
       <UniqueIdentifier>{30a2d45d-a4da-4ec2-8f2c-e9530dd7e2f3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\C++ STL\模板">
-      <UniqueIdentifier>{e14cd0de-1d8d-4f09-973f-f6bfbac13853}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\C++基础\类继承">
       <UniqueIdentifier>{77b6f9f5-2421-4564-8427-deaadf90ec18}</UniqueIdentifier>
     </Filter>
@@ -92,6 +89,9 @@
     </Filter>
     <Filter Include="源文件\C++基础\纯虚函数和抽象类">
       <UniqueIdentifier>{d07e0dfe-40a2-48a0-b31c-61a8ba351f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++ STL\模板">
+      <UniqueIdentifier>{e14cd0de-1d8d-4f09-973f-f6bfbac13853}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
