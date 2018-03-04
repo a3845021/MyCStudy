@@ -22,6 +22,10 @@
 #include "ThreadStudy.h"
 #include "VirtualStudy.h"
 #include "TemplateStudy.h"
+#include "CastStudy.h"
+#include "ExceptionStudy.h"
+#include "StreamStudy.h"
+#include "STLStudy.h"
 using namespace std;
 
 void run(Root *root){
@@ -116,8 +120,24 @@ void main(int argc, const char* argv[]){
 	//mVirtualStudy.run();
 
 	//模板的学习
-	TemplateStudy mTemplateStudy;
-	mTemplateStudy.run();
+	//TemplateStudy mTemplateStudy;
+	//mTemplateStudy.run();
+
+	//类型转换
+	//CastStudy mCastStudy;
+	//mCastStudy.run();
+
+	//异常的学习
+	//ExceptionStudy mExceptionStudy;
+	//mExceptionStudy.run();
+
+	//输入输出流  文件操作学习
+	//StreamStudy mStreamStudy;
+	//mStreamStudy.run();
+
+	//STL学习
+	STLStudy mSTLStudy;
+	mSTLStudy.run();
 
 	//char a = 'A';
 	//printf("a==  %d\n",a);

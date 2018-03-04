@@ -80,9 +80,11 @@
   <ItemGroup>
     <ClInclude Include="AutoPtrStudy.h" />
     <ClInclude Include="BubbleSortStudy.h" />
+    <ClInclude Include="CastStudy.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="CoutCinStudy.h" />
     <ClInclude Include="EnumStudy.h" />
+    <ClInclude Include="ExceptionStudy.h" />
     <ClInclude Include="FriendStudy.h" />
     <ClInclude Include="InheritStudy.h" />
     <ClInclude Include="InLineStudy.h" />
@@ -98,6 +100,8 @@
     <ClInclude Include="QuoteStudy.h" />
     <ClInclude Include="ReLoadStudy.h" />
     <ClInclude Include="ReOperatorStudy.h" />
+    <ClInclude Include="STLStudy.h" />
+    <ClInclude Include="StreamStudy.h" />
     <ClInclude Include="StringStudy.h" />
     <ClInclude Include="StructStudy.h" />
     <ClInclude Include="TemplateStudy.h" />
@@ -109,8 +113,10 @@
   <ItemGroup>
     <ClCompile Include="AutoPtrStudy.cpp" />
     <ClCompile Include="BubbleSortStudy.cpp" />
+    <ClCompile Include="CastStudy.cpp" />
     <ClCompile Include="CoutCinStudy.cpp" />
     <ClCompile Include="EnumStudy.cpp" />
+    <ClCompile Include="ExceptionStudy.cpp" />
     <ClCompile Include="FriendStudy.cpp" />
     <ClCompile Include="InheritStudy.cpp" />
     <ClCompile Include="InLineStudy.cpp" />
@@ -127,6 +133,8 @@
     <ClCompile Include="QuoteStudy.cpp" />
     <ClCompile Include="ReLoadStudy.cpp" />
     <ClCompile Include="ReOperatorStudy.cpp" />
+    <ClCompile Include="STLStudy.cpp" />
+    <ClCompile Include="StreamStudy.cpp" />
     <ClCompile Include="StringStudy.cpp" />
     <ClCompile Include="StructStudy.cpp" />
     <ClCompile Include="TemplateStudy.cpp" />

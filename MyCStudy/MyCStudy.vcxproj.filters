@@ -93,6 +93,18 @@
     <Filter Include="源文件\C++ STL\模板">
       <UniqueIdentifier>{e14cd0de-1d8d-4f09-973f-f6bfbac13853}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\C++ STL\类型转换">
+      <UniqueIdentifier>{db6f1b4f-d6f2-4622-8c13-2b7fd7b7ac06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++ STL\异常">
+      <UniqueIdentifier>{65a74c64-5448-4b85-bb3c-ecfbd1845e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++ STL\输入输出流">
+      <UniqueIdentifier>{03633cf0-93c4-4d5a-bf29-97038922f8ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\C++ STL\STL">
+      <UniqueIdentifier>{d2d2b96a-2e57-4e6c-bf70-01162eb9a2bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MyMain.cpp">
@@ -176,6 +188,18 @@
     <ClCompile Include="VirtualStudy.cpp">
       <Filter>源文件\C++基础\纯虚函数和抽象类</Filter>
     </ClCompile>
+    <ClCompile Include="CastStudy.cpp">
+      <Filter>源文件\C++ STL\类型转换</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionStudy.cpp">
+      <Filter>源文件\C++ STL\异常</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamStudy.cpp">
+      <Filter>源文件\C++ STL\输入输出流</Filter>
+    </ClCompile>
+    <ClCompile Include="STLStudy.cpp">
+      <Filter>源文件\C++ STL\STL</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSortStudy.h">
@@ -258,6 +282,18 @@
     </ClInclude>
     <ClInclude Include="VirtualStudy.h">
       <Filter>源文件\C++基础\纯虚函数和抽象类</Filter>
+    </ClInclude>
+    <ClInclude Include="CastStudy.h">
+      <Filter>源文件\C++ STL\类型转换</Filter>
+    </ClInclude>
+    <ClInclude Include="ExceptionStudy.h">
+      <Filter>源文件\C++ STL\异常</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamStudy.h">
+      <Filter>源文件\C++ STL\输入输出流</Filter>
+    </ClInclude>
+    <ClInclude Include="STLStudy.h">
+      <Filter>源文件\C++ STL\STL</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
